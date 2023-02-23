@@ -1,0 +1,5 @@
+config:
+  - sample2: sample2.json
+sample2:
+  - filter: "{{ .Env.appname }}"
+  - name: "{{ .Env.mzname }}"

@@ -1,0 +1,11 @@
+{
+    "tags": [
+      {
+        "key": "{{.tag1}}"
+      },
+      {
+        "key": "app",
+        "value": "{{.appname}}"
+      }
+    ]
+  }

@@ -1,0 +1,7 @@
+config:
+- template: template.json
+template:
+- name: "{{ .Env.appname }}"
+  Database_name_begins_with: "db"
+  Host_detected_name_begins: "{{ .Env.appname }}"
+
