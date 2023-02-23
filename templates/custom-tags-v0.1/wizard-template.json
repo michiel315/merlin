@@ -1,0 +1,32 @@
+{
+    "id": "custom-tags-v0.1",
+    "friendlyName": "Custom tags demo",
+    "description": "Creates custom tags for the target entities",
+    "parameters": [
+    {
+      "id": "entityCode",
+      "friendlyName": "Entity ID",
+      "description": "Entity ID to add a custom tag",
+      "type": "text",
+      "optional": false
+    },
+    {
+      "id": "appname",
+      "friendlyName": "Application name",
+      "description": "Use to generate mz zone linked to the custom entity",
+      "type": "text",
+      "optional": false
+    },
+    {
+      "id": "tag1",
+      "friendlyName": "Tag value",
+      "description": "tag value to apply to the entity",
+      "type": "text",
+      "optional": false
+    }
+  ],
+    "summary": [
+      "Custom tags will be created for the target entity",
+      "Management zone will be created"
+    ]
+  }

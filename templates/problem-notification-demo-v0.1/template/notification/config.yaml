@@ -1,0 +1,6 @@
+config:
+  - template: template.json
+template:
+  - name: "{{ .Env.appname }}"
+    Email_1: "{{ .Env.email }}"
+    alert_profile: "template/alerting-profile/template.id"

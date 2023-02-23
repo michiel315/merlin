@@ -1,0 +1,5 @@
+config:
+- template: template.json
+template:
+- name: "{{ .Env.teamname }}"
+  Tag_key1: "{{ .Env.appname }}"
