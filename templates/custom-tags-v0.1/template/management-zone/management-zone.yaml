@@ -1,6 +1,0 @@
-config:
-- sample2: sample2.json
-sample2:
-- filter: "{{ .Env.tag1 }}"
-- name: "{{ .Env.appname }}"
-

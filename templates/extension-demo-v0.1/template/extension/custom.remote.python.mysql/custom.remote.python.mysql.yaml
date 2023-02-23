@@ -1,6 +1,0 @@
-config:
-  - test: test.json
-test:
-  - name: "{{ .Env.appname }}"
-    host: "{{ .Env.host }}"
-    agid: "{{ .Env.activegateid }}"

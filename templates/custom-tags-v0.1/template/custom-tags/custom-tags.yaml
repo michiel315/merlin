@@ -1,6 +1,0 @@
-config:
-- template: template.json
-template:
-- name: "entityId%28%22{{ .Env.entityCode }}%22%29"
-- appname: "{{ .Env.appname }}"
-- tag1: "{{ .Env.tag1 }}"
